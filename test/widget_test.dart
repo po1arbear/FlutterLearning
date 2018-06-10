@@ -5,25 +5,57 @@
 // are correct.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
-
-import 'package:flutter_app_test/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(new MyApp());
+//  runApp(new Center(child: new Text('你好，世界！', textDirection :TextDirection.ltr)));
+//  runApp(new MyAppBar());
+  runApp(new MaterialApp(
+    title: "material app",
+    home: new MyScaffold(),
+  ));
+}
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+class MyAppBar extends StatelessWidget {
+  final Widget title;
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+  MyAppBar({this.title});
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
-  });
+  @override
+  Widget build(BuildContext context) {
+    return new Container(
+      height: 56.0,
+      padding: const EdgeInsets.symmetric(horizontal: 9.0, vertical: 3.0),
+      decoration: new BoxDecoration(color: Colors.blue),
+      child: new Row(
+        children: <Widget>[
+          new IconButton(
+              icon: new Icon(Icons.menu), tooltip: "导航菜单", onPressed: null),
+          new Expanded(child: title),
+          new IconButton(
+              icon: new Icon(Icons.search), tooltip: "搜索", onPressed: null)
+        ],
+      ),
+    );
+  }
+}
+
+class MyScaffold extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Material(
+      child: new Column(
+        children: <Widget>[
+          new MyAppBar(
+            title: new Text('Big Tiltle',
+                style: Theme.of(context).primaryTextTheme.title,                textDirection:TextDirection.ltr
+            ),
+          ),
+          new Expanded(
+              child: new Center(
+            child: new Text("你好，世界 ！"),
+          )),
+        ],
+      ),
+    );
+  }
 }
