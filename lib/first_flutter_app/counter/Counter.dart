@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_test/first_flutter_app/route/NewRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -40,7 +41,17 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text('You have pushed the button this many times:'),
-            Text('$_counter', style: Theme.of(context).textTheme.display1)
+            Text('$_counter', style: Theme.of(context).textTheme.display1),
+            FlatButton(
+              child: Text("open new route"),
+              textColor: Colors.blue,
+              onPressed: () {
+                //导航到新路由
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return NewRoute();
+                }));
+              },
+            )
           ],
         ),
       ),
