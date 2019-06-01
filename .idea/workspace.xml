@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="878ca1fe-7c40-480e-bace-e0f70e171ee3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/first_flutter_app/counter/Counter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/first_flutter_app/counter/Counter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationRoute.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/first_flutter_app/navigation/EmailPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/first_flutter_app/navigation/EmailPage.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -38,28 +38,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dart" value="37" />
+          <entry key="dart" value="40" />
           <entry key="gradle" value="2" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="37" />
+          <entry key="Dart" value="40" />
           <entry key="Groovy" value="2" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="3044" />
+          <entry key="dart" value="3320" />
           <entry key="gradle" value="1" />
           <entry key="properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="3044" />
+          <entry key="Dart" value="3320" />
           <entry key="Groovy" value="1" />
           <entry key="Properties" value="3" />
         </counts>
@@ -69,10 +69,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/widget/week1_safearea.dart">
+        <entry file="file://$PROJECT_DIR$/lib/myapp.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="539">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#219#735#0" expanded="true" />
+                <element signature="e#832#872#0" expanded="true" />
+                <element signature="e#1494#2082#0" expanded="true" />
+                <element signature="e#2113#2616#0" expanded="true" />
+                <element signature="e#2652#3141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/flutter/packages/flutter/lib/src/material/app.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationApp.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#161#358#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,13 +124,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationRoute.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="447">
+              <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#145#202#0" expanded="true" />
                 <element signature="e#396#457#0" expanded="true" />
-                <element signature="e#329#380#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/EmailPage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#131#164#0" expanded="true" />
                 <element signature="e#263#339#0" expanded="true" />
@@ -122,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/PageThree.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="204">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#131#164#0" expanded="true" />
               </folding>
@@ -146,21 +175,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/HomePage.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="e#131#188#0" expanded="true" />
-                <element signature="e#252#303#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/widget/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -179,19 +198,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/route/NewRoute.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#170#368#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -205,6 +211,7 @@
     <findStrings>
       <find>RandomWordsState</find>
       <find>ViewPostIme</find>
+      <find>onta</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -233,9 +240,10 @@
         <option value="$PROJECT_DIR$/lib/first_flutter_app/route/NewRoute.dart" />
         <option value="$PROJECT_DIR$/lib/first_flutter_app/counter/Counter.dart" />
         <option value="$PROJECT_DIR$/lib/first_flutter_app/navigation/HomeScreen.dart" />
-        <option value="$PROJECT_DIR$/lib/first_flutter_app/navigation/EmailPage.dart" />
         <option value="$PROJECT_DIR$/lib/first_flutter_app/navigation/PageFour.dart" />
         <option value="$PROJECT_DIR$/lib/first_flutter_app/navigation/PageThree.dart" />
+        <option value="$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationApp.dart" />
+        <option value="$PROJECT_DIR$/lib/first_flutter_app/navigation/EmailPage.dart" />
         <option value="$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationRoute.dart" />
       </list>
     </option>
@@ -316,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flutter.Counter.dart">
+  <component name="RunManager" selected="Flutter.BottomNavigationApp.dart">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -340,6 +348,10 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BottomNavigationApp.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationApp.dart" />
+      <method v="2" />
     </configuration>
     <configuration name="Counter.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/first_flutter_app/counter/Counter.dart" />
@@ -371,9 +383,11 @@
       <item itemvalue="Flutter.myapp.dart" />
       <item itemvalue="Flutter.main.dart (1)" />
       <item itemvalue="Flutter.Counter.dart" />
+      <item itemvalue="Flutter.BottomNavigationApp.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter.BottomNavigationApp.dart" />
         <item itemvalue="Flutter.Counter.dart" />
         <item itemvalue="Flutter.main.dart (1)" />
         <item itemvalue="Flutter.myapp.dart" />
@@ -398,7 +412,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -408,7 +422,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27349398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23253012" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,21 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/myapp.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-            <element signature="e#219#735#0" expanded="true" />
-            <element signature="e#832#872#0" expanded="true" />
-            <element signature="e#1494#2082#0" expanded="true" />
-            <element signature="e#2113#2616#0" expanded="true" />
-            <element signature="e#2652#3141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/flutter/packages/flutter/lib/src/widgets/app.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -698,12 +697,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/PageThree.dart">
+    <entry file="file://$PROJECT_DIR$/lib/myapp.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#219#735#0" expanded="true" />
+            <element signature="e#832#872#0" expanded="true" />
+            <element signature="e#1494#2082#0" expanded="true" />
+            <element signature="e#2113#2616#0" expanded="true" />
+            <element signature="e#2652#3141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/flutter/packages/flutter/lib/src/material/app.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationApp.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#161#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/EmailPage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#131#164#0" expanded="true" />
+            <element signature="e#263#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/HomePage.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="e#131#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,37 +761,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/HomePage.dart">
+    <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/PageThree.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#131#188#0" expanded="true" />
-            <element signature="e#252#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/EmailPage.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#131#164#0" expanded="true" />
-            <element signature="e#263#339#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/first_flutter_app/navigation/BottomNavigationRoute.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="447">
+          <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#145#202#0" expanded="true" />
             <element signature="e#396#457#0" expanded="true" />
-            <element signature="e#329#380#0" expanded="true" />
           </folding>
         </state>
       </provider>

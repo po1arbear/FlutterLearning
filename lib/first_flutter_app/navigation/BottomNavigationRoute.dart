@@ -26,39 +26,40 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
+        body: pages[_currentIndex],
         bottomNavigationBar: BottomNavigationBar(
-      items: [
-        BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: _bnColor),
-            title: Text(
-              'Home',
-              style: TextStyle(color: _bnColor),
-            )),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.email, color: _bnColor),
-            title: Text(
-              'Home',
-              style: TextStyle(color: _bnColor),
-            )),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.pages, color: _bnColor),
-            title: Text(
-              'Home',
-              style: TextStyle(color: _bnColor),
-            )),
-        BottomNavigationBarItem(
-            icon: Icon(Icons.airplay, color: _bnColor),
-            title: Text(
-              'Home',
-              style: TextStyle(color: _bnColor),
-            ))
-      ],
-      currentIndex: _currentIndex,
-      onTap: (int index) {
-        setState(() {
-          _currentIndex = index;
-        });
-      },
-    ));
+          items: [
+            BottomNavigationBarItem(
+                icon: Icon(Icons.home, color: _bnColor),
+                title: Text(
+                  'Home',
+                  style: TextStyle(color: _bnColor),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.email, color: _bnColor),
+                title: Text(
+                  'Email',
+                  style: TextStyle(color: _bnColor),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.pages, color: _bnColor),
+                title: Text(
+                  'Pages',
+                  style: TextStyle(color: _bnColor),
+                )),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.airplay, color: _bnColor),
+                title: Text(
+                  'Airplay',
+                  style: TextStyle(color: _bnColor),
+                ))
+          ],
+          currentIndex: _currentIndex,
+          onTap: (int index) {
+            setState(() {
+              _currentIndex = index;
+            });
+          },
+        ));
   }
 }

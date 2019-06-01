@@ -11,7 +11,7 @@ class EmailPageState extends State<EmailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('HOME')),
+      appBar: AppBar(title: Text('Email')),
     );
   }
 }
