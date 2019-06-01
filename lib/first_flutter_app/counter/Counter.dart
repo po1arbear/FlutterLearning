@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       //应用名称
       title: 'Flutter Demo',
       //蓝色主题
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.red),
       //应用首页路由
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
