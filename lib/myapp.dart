@@ -1,5 +1,6 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_test/first_flutter_app/route/NewRoute.dart';
 
 void main() {
   runApp(new MyApp());
@@ -10,21 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
 //    final wordPair = new WordPair.random();
     return new MaterialApp(
-      title: 'Startup Name Generator',
+      title: 'MaterialApp title',
       home: new RandomWords(),
       theme: new ThemeData(primaryColor: Colors.white),
-//      title: 'Welcome to my app',
-//      home: new Scaffold(
-//        appBar: new AppBar(
-//          title: new Text('text in appbar'),
-
-//        ),
-//        body: new Center(
-////          child: new Text(wordPair.asPascalCase),
-//            child: new RandomWords(),
-//        ),
-//
-//      ),
     );
   }
 }
@@ -47,7 +36,7 @@ class RandomWordsState extends State<RandomWords> {
 //    return new Text(wordPair.asPascalCase);
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Startup Name Generator"),
+        title: new Text("Scaffold title"),
         actions: <Widget>[
           new IconButton(icon: new Icon(Icons.list), onPressed: _pushSaved)
         ],
@@ -57,6 +46,8 @@ class RandomWordsState extends State<RandomWords> {
   }
 
   Widget _pushSaved() {
+//    Navigator.of(context)
+//        .push(new MaterialPageRoute(builder: (context) => new NewRoute()));
     Navigator.of(context).push(new MaterialPageRoute(builder: (context) {
       final titles = _saved.map(
         (wordPair) {
