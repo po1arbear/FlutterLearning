@@ -34,7 +34,9 @@ class _MyHomePageState extends State<MyHomePage> {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Container(
+          child: Text(widget.title),
+        ),
       ),
       body: Center(
         child: Column(

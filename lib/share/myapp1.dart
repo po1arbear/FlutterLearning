@@ -34,25 +34,33 @@ class RandomWordsState extends State<RandomWords> {
     _wordParis.addAll(generateWordPairs().take(20));
     // TODO: implement build
     return new Scaffold(
-      appBar: new AppBar(
-        title: new Text("Scaffold title"),
-        actions: <Widget>[
-          new IconButton(
-            icon: new Icon(Icons.menu),
-            onPressed: _toSavedPairs,
-          )
-        ],
-      ),
-      body: new ListView.builder(
-          itemCount: _wordParis.length,
-          itemBuilder: (context, i) {
-            if (i.isOdd) {
-              return new Divider();
-            } else {
-              return _buildRows(_wordParis[i]);
-            }
-          }),
-    );
+        appBar: new AppBar(
+          title: new Text("Scaffold title"),
+          actions: <Widget>[
+            new IconButton(
+              icon: new Icon(Icons.menu),
+              onPressed: _toSavedPairs,
+            )
+          ],
+        ),
+        body: new Column(
+          children: <Widget>[
+            new Container(
+              height: 600,
+              child: new ListView.builder(
+                  scrollDirection: Axis.vertical,
+                  shrinkWrap: true,
+                  itemCount: _wordParis.length,
+                  itemBuilder: (context, i) {
+                    if (i.isOdd) {
+                      return new Divider();
+                    } else {
+                      return _buildRows(_wordParis[i]);
+                    }
+                  }),
+            )
+          ],
+        ));
   }
 
   void _toSavedPairs() {
@@ -97,6 +105,17 @@ class RandomWordsState extends State<RandomWords> {
           }
         });
       },
+    );
+  }
+}
+
+class MyButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      child: Container(
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
